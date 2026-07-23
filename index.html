@@ -1127,8 +1127,13 @@
 </head>
 
 <body>
-    <nav class="navbar" id="navbar">
-        <a href="#hero" class="navbar-brand">PesonaBali</a>
+<nav class="navbar" id="navbar">
+        <!-- Bagian navbar-brand diubah menjadi flex agar logo dan teks sejajar -->
+        <a href="#hero" class="navbar-brand" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+            <img src="asset/logo web.png" alt="Logo PesonaBali" style="height: 40px; width: auto;">
+            <span>PesonaBali</span>
+        </a>
+        
         <div class="hamburger-menu" id="hamburgerMenu">
             <i class="fas fa-bars"></i>
         </div>
